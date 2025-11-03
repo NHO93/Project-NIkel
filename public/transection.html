@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikel-Transaction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body id="app">
+    <header>
+        <nav class="navbar navbar-expand navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/nikel-small-logo.png" alt="logo nikel pequeno" class="img-fluid" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="d-flex">
+                        <a href="home.html"><button class="btn" type="button">
+                                <i class="bi bi-house-door-fill fs-4 ">
+                                </i></button></a>
+
+                        <a href="transection.html"><button class="btn color-secondary" type="button">
+                                <i class="bi bi-currency-exchange fs-4"></i>
+                            </button>
+                        </a>
+
+                        <div class="dropdown">
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+                                    class="bi bi-person-circle fs-4"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Sair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col d-flex mt-4 justify-content-start align-items-center">
+                    <i class="bi bi-currency-exchange color-primary icon-detail"></i>
+                    <span class="fs-2">Lançamentos</span>
+                </div>
+                <div class="col d-flex mt-4 justify-content-end">
+                    <div class="text-center">
+                        <img src="./assets/images/coins-small.png" alt="moedas pequenas"
+                            class="img-fluid coins-small" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 info shadow-lg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Data</th>
+                                            <th scope="col">valor</th>
+                                            <th scope="col">Tipo</th>
+                                            <th scope="col">Descrição</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">31/10/2025</th>
+                                            <td>100,00</td>
+                                            <td>Saida</td>
+                                            <td>Gasolina</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col  justify-content-end d-flex mt-4 mb-4">
+                        <i class="bi bi-plus-circle-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
