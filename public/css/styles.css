@@ -55,6 +55,25 @@
   border-radius: 10px;
   color: red;
 }
+.button-float{
+  border-radius: 100%;
+  border: 2px solid #4e0070;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  font-size: 35px;
+  background-color: #4e0070;
+  color: #ffffff;
+  padding: 0 !important;
+
+}
+.button-float:hover{
+  background-color: #4c79d3;
+  background-color: white;
+  color: #4c79d3;
+}
 
 .button-login:hover, .button-default:hover {
   background-color: #4c79d3;
