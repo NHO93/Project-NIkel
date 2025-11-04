@@ -79,6 +79,10 @@
   background-color: #4c79d3;
   color: white;
 }
+.logout-button{
+  cursor: pointer;
+  min-width: 5rem !important;
+}
 .link-default{
   cursor: pointer;
   color: #4e0070;
